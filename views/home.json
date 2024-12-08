@@ -1,0 +1,199 @@
+{
+    "type": "View",
+    "props": {
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "width": 750,
+        "height": 1334
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Box",
+            "props": {
+                "y": 30,
+                "name": "topPanel",
+                "height": 60,
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+            },
+            "compId": 24,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 110,
+                        "centerX": 0,
+                        "left": 0,
+                        "skin": "loading/icon_logo.png",
+                        "name": "logo"
+                    },
+                    "compId": 81
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 5,
+                        "x": 5,
+                        "width": 100,
+                        "stateNum": 1,
+                        "skin": "ui/common/btn_sound_on.png",
+                        "name": "btnSound",
+                        "height": 100
+                    },
+                    "compId": 70
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 799,
+                "centerX": 0,
+                "width": 583,
+                "name": "bottomui",
+                "height": 294,
+                "cacheAs": "normal"
+            },
+            "compId": 25,
+            "child": [
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 100,
+                        "x": 89.5,
+                        "stateNum": 1,
+                        "skin": "ui/common/btn_play.png",
+                        "name": "btnPlay"
+                    },
+                    "compId": 33
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 147,
+                        "x": 191.5
+                    },
+                    "compId": 105
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": -64,
+                        "x": -83.5,
+                        "width": 750,
+                        "valign": "middle",
+                        "text": "0",
+                        "name": "lblScore",
+                        "fontSize": 80,
+                        "color": "#ffffff",
+                        "align": "center",
+                        "stroke": "5",
+                        "strokeColor": "#000000",
+                        "bold": true
+                    },
+                    "compId": 106
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": -121,
+                        "centerX": 0,
+                        "text": "BEST SCORE:",
+                        "font":"Arial",
+                        "name": "lblName",
+                        "fontSize": 45,
+                        "color": "#ffffff",
+                        "stroke": "5",
+                        "strokeColor": "#000000",
+                        "bold": true
+                    },
+                    "compId": 107
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "x": 0,
+                "name": "listBox",
+                "bottom": 40
+            },
+            "compId": 84,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "width": 750,
+                        "skin": "ui/common/bg_mask.png",
+                        "height": 180,
+                        "alpha": 0
+                    },
+                    "compId": 9
+                },
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 17,
+                        "x": 15,
+                        "width": 720,
+                        "spaceX": 25,
+                        "repeatY": 1,
+                        "repeatX": 4,
+                        "name": "gameList",
+                        "height": 146
+                    },
+                    "compId": 10,
+                    "child": [
+                        {
+                            "type": "Box",
+                            "props": {
+                                "y": 10,
+                                "width": 160,
+                                "renderType": "render",
+                                "height": 120
+                            },
+                            "compId": 99,
+                            "child": [
+                                {
+                                    "type": "Image",
+                                    "props": {
+                                        "width": 160,
+                                        "name": "thumb",
+                                        "height": 120
+                                    },
+                                    "compId": 97
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "View",
+            "props": {
+                "runtime": "scripts/views/HomeView.ts"
+            },
+            "compId": 99
+        }
+    ],
+    "loadList": [
+        "loading/icon_logo.png",
+        "ui/common/collect_hand.png",
+        "ui/common/btn_sound_on.png",
+        "ui/common/btn_vibrate_on.png",
+        "ui/common/mask_white.png",
+        "ui/common/btn_play.png",
+        "ui/common/btn_rank.png",
+        "ui/common/btn_svrvice.png",
+        "ui/common/btn_share_1.png",
+        "ui/common/btn_collect.png",
+        "ui/common/bg_mask.png"
+    ],
+    "loadList3D": []
+}

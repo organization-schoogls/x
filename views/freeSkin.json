@@ -1,0 +1,151 @@
+{
+    "type": "View",
+    "props": {
+        "width": 750,
+        "runtime": "scripts/views/skinView.ts",
+        "itemIcons": "@arr:,,,",
+        "itemBgs": "@arr:,",
+        "height": 1334
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "y": -208,
+                "x": 0,
+                "width": 5000,
+                "skin": "ui/rank/bg_mask.png",
+                "name": "bg",
+                "height": 1750
+            },
+            "compId": 74
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 236,
+                "centerX": 0,
+                "width": 540,
+                "name": "content",
+                "height": 748
+            },
+            "compId": 70,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 540,
+                        "skin": "ui/common/bg_panel_1.png",
+                        "name": "bg1",
+                        "height": 748,
+                        "sizeGrid": "79,49,27,49"
+                    },
+                    "compId": 4
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 20,
+                        "centerX": 0,
+                        "text": "Skin Trial",
+                        "name": "lblName",
+                        "fontSize": 40,
+                        "font":"Arial",
+                        "color": "#ffffff",
+                        "bold": true
+                    },
+                    "compId": 38
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 87,
+                        "centerX": 0,
+                        "text": "Epic skins, try it for free",
+                        "name": "lblTips",
+                        "font":"Arial",
+                        "fontSize": 26,
+                        "bold":true,
+                        "color": "#f21a1a"
+                    },
+                    "compId": 24
+                },
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 137,
+                        "x": 50,
+                        "width": 439,
+                        "spaceY": 0,
+                        "spaceX": 40,
+                        "repeatY": 2,
+                        "repeatX": 2,
+                        "renderType": "render",
+                        "name": "skinList",
+                        "height": 552
+                    },
+                    "compId": 6
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 0,
+                "centerX": 0,
+                "width": 607,
+                "name": "bottom",
+                "height": 112,
+                "cacheAs": "normal",
+                "bottom": 100
+            },
+            "compId": 92,
+            "child": [
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 38,
+                        "centerX": 0,
+                        "text": "No, Thanks",
+                        "bold":true,
+                        "font":"Arial",
+                        "fontSize": 45,
+                        "color":"#ffffff",
+                        "underline": true,
+                        "name": "btnBack"
+                    },
+                    "compId": 78
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": -44,
+                        "x": 302,
+                        "width": 390,
+                        "stateNum": 1,
+                        "skin": "ui/common/btn_random.png",
+                        "pivotY": 54,
+                        "pivotX": 195,
+                        "name": "btnVideo",
+                        "height": 108
+                    },
+                    "compId": 5
+                }
+            ]
+        }
+    ],
+    "loadList": [
+        "ui/rank/bg_mask.png",
+        "ui/common/collect_hand.png",
+        "ui/common/bg_panel_1.png",
+        "ui/common/cell_1.png",
+        "ui/common/icon_true.png",
+        "ui/common/mask_white.png",
+        "ui/common/btn_skip.png",
+        "ui/common/btn_random.png"
+    ],
+    "loadList3D": []
+}
